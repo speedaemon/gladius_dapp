@@ -28,12 +28,6 @@ window.addEventListener('load', function() {
     contract = new myWeb3.eth.Contract(gladContractABI, '0x5Bd4bB7Be6b37Cf253ed7564432A43d4A8426A1A');
 });
 
-
-
-
-
-
-
 export const actionHandler = store => next => action => {
 
     const state = store.getState();
