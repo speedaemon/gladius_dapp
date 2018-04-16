@@ -5,7 +5,9 @@ import { Form } from '../form/Form';
 class Home extends Component {
 
   componentDidMount() {
-    this.props.init();
+    window.addEventListener('load', () => {
+      this.props.init();
+    });
   }
 
   render() {
